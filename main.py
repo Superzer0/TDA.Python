@@ -6,6 +6,7 @@ import sklearn.cluster
 from stemming.porter2 import stem
 from objects.inputparams import InputParams
 from objects.processing_entry import ProcessingEntry
+import csv
 
 
 def get_input_params(argv):
@@ -27,13 +28,12 @@ def get_input_params(argv):
 
 def get_data(in_params):
     try:
-        with open(in_params.input_file_path, 'r') as file:
-            lines = file.read().splitlines()
+        with open(in_params.input_file_path, 'r') as csvFiles:
+            reader = csv.reader(csvFiles, delimiter=',', quotechar='|')
             dictionary = {}
-            for line in lines:
-                data = line.split()
-                dictionary[data[0]] = ProcessingEntry(data[0], data[1])
-
+            for data in reader:
+                if data[0] and data[1]:  # ignore malformed data lines
+                    dictionary[data[0]] = ProcessingEntry(data[0], data[1])
             return dictionary
     except IOError:
         print("IO Error has occurred. Check input file")
@@ -46,7 +46,8 @@ def get_data(in_params):
 def process(data_dic):
     reversed_stem_dic = {}
     for key, data in data_dic.items():
-        data.stem = stem(data.org)  # stemming words to discard noise from the data
+        print(data.org.strip())
+        data.stem = stem(data.org.strip())  # stemming words to discard noise from the data
         if data.stem in reversed_stem_dic:
             stemmed_data = reversed_stem_dic[data.stem]
             stemmed_data.append(data)
@@ -73,11 +74,14 @@ def process(data_dic):
 
 
 def save_results(input_params, result_data):
-    for key, entry in result_data.items():
-        print("id: %s, word: %s, stem: %s, groupId: %s" % (entry.id, entry.org, entry.stem, entry.group))
-        # output id stem version groupId
-        # todo: save to file
+    try:
+        with open(input_params.output_file_path, 'w', newline='') as csvFile:
+            csv_writer = csv.writer(csvFile, delimiter=',', quotechar='|')
+            for key, entry in result_data.items():
+                csv_writer.writerow([entry.id, entry.org, entry.stem, entry.group])
 
+    except IOError:
+        print("IO Error when saving results")
 
 if __name__ == "__main__":
     input_params = get_input_params(sys.argv[1:])
