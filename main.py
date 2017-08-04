@@ -51,8 +51,10 @@ def get_data(in_params):
                 dictionary = {}
                 for data in reader:
                     if len(data) > 1 and data[0] and data[1]:  # ignore malformed data lines
-                        if word_is_eligible(data[1]):
-                            dictionary[data[0]] = ProcessingEntry(data[0], data[1])
+                        word_base = data[1].strip().lower()
+                        word_id = data[0]
+                        if word_is_eligible(word_base) and word_base not in dictionary:
+                            dictionary[word_base] = ProcessingEntry(word_id, word_base)
                 return dictionary
         except IOError:
             print("IO Error has occurred. Check input file")
@@ -63,14 +65,14 @@ def get_data(in_params):
 
 
 def word_is_eligible(word):
-    return len(word) <= 12 and len(stem(word.strip())) > 0
+    return len(stem(word.strip())) > 0
 
 
 def process(data_dic, affinity_preference):
     reversed_stem_dic = {}
     with LoggingTime("Words stem dictionary prep took "):
         for key, data in data_dic.items():
-            data.stem = stem(data.org.strip().lower())  # stemming words to discard noise from the data
+            data.stem = stem(data.org)  # stemming words to discard noise from the data
             if data.stem in reversed_stem_dic:
                 stemmed_data = reversed_stem_dic[data.stem]
                 stemmed_data.append(data)
@@ -88,7 +90,7 @@ def process(data_dic, affinity_preference):
     damping_factor = .9
 
     affinity_propagation_algorithm = sklearn.cluster.AffinityPropagation(affinity="precomputed",
-                                                                         damping=damping_factor,
+                                                                         damping=damping_factor, max_iter=10000,
                                                                          verbose=True, preference=dynamic_preference)
 
     print("Starting affinity propagation alg with damping %f and preference %s..."
@@ -154,8 +156,6 @@ def save_plot(af, distance_matrix, output_file_name):
             plt.plot(distance_matrix[class_members, 0], distance_matrix[class_members, 1], col + '.')
             plt.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col,
                      markeredgecolor='k', markersize=14)
-            for x in distance_matrix[class_members]:
-                plt.plot([cluster_center[0], x[0]], [cluster_center[1], x[1]], col)
 
         plt.title('Estimated number of clusters: %d' % n_clusters_)
         plt.savefig('%s.png' % output_file_name, bbox_inches='tight')
@@ -169,7 +169,7 @@ def save_results(params, result_data):
         with open(params.output_file_path, 'w', newline='', encoding="utf8") as csvFile:
             csv_writer = csv.writer(csvFile, delimiter=',', quotechar='|')
             for key, entry in result_data.items():
-                csv_writer.writerow([entry.id, entry.org, entry.stem, entry.group])
+                csv_writer.writerow([entry.org, entry.stem, entry.group])
         print("Results saved in %s" % params.output_file_path)
     except IOError:
         print("IO Error when saving results")
@@ -179,13 +179,10 @@ def run():
     print("Started processing with following params" + str(sys.argv[1:]))
     input_params = get_input_params(sys.argv[1:])
     input_data_dic = get_data(input_params)
-    print("Loaded data with %i entries with affinity preference factor: %s"
+    print("Loaded %i search terms. Affinity preference factor: %s"
           % (len(input_data_dic), str(input_params.affinity_preference)))
     results, af_results, distance_matrix = process(input_data_dic, input_params.affinity_preference)
     save_results(input_params, results)
-
-    if input_params.generate_plot:
-        save_plot(af_results, distance_matrix, input_params.output_file_path)
 
     if input_params.compute_silhouette:
         print_clustering_stats(af_results, distance_matrix)
