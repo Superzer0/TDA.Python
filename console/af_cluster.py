@@ -9,8 +9,8 @@ from services.FileService import ProcessingFilesService
 
 
 def get_input_params(argv):
-    input_file_path = 'example_dataset/example.txt'
-    output_file_path = 'example_dataset/example_output.txt'
+    input_file_path = 'console/example_dataset/example.txt'
+    output_file_path = 'console/example_dataset/example_output.txt'
     compute_silhouette = True
     affinity_preference_factor = 'auto'
 

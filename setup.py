@@ -9,9 +9,9 @@ setup(
     author_email='kuba.kawa@hotmail.com',
     url="https://github.com/Superzer0/TDA.Python",
     keywords='clustering words affinity propagation',
-    packages=['console', 'objects', 'services', 'console.example_dataset'],
+    packages=['.', 'console', 'objects', 'services', 'console.example_dataset'],
     install_requires=['distance', 'numpy', 'scikit-learn', 'stemming'],
-
+    scripts=['run.py'],
     package_data={
         'console.example_dataset': ['example.txt'],
     },
