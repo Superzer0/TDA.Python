@@ -41,7 +41,7 @@ def log_coefficient(coefficient):
 
 
 def run():
-    logging.basicConfig(level=logging.INFO)
+
     logging.info("Started processing with following params" + str(sys.argv[1:]))
     input_params = get_input_params(sys.argv[1:])
     file_service = ProcessingFilesService(input_params, AFWordsClustering.is_word_eligible())
