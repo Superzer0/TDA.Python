@@ -1,5 +1,9 @@
+"""AFProcessingResults contains results of the AF algorithm run"""
+
+
 class AFProcessingResults:
     def __init__(self, data_dic, af_results, lev_similarity, silhouette_coef=None):
+        """Initialize AFProcessingResults class"""
         self.__silhouette_coef = silhouette_coef
         self.__lev_similarity = lev_similarity
         self.__af_results = af_results

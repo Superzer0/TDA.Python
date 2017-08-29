@@ -1,3 +1,5 @@
+"""Manages I/O for clustering scripts"""
+
 import csv
 import logging
 
@@ -6,8 +8,6 @@ from services.ExecutionTime import LoggingTime
 
 
 class ProcessingFilesService:
-    """Manages I/O for clustering scripts"""
-
     def __init__(self, io_params, word_eligible_fun):
         self.__word_eligible_fun = word_eligible_fun
         self.__io_params = io_params

@@ -1,5 +1,10 @@
+"""DTO that holds all information about word, its stem and assigned group"""
+
+
 class ProcessingEntry:
+
     def __init__(self, org):
+        """Initialize ProcessingEntry class"""
         self.__org = org
         self.__stem = org
         self.__group = -1

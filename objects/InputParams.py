@@ -1,11 +1,13 @@
-class InputParams:
-    """Contains data for processing"""
+"""Contains data for processing"""
 
+
+class InputParams:
     AFFINITY_PREFERENCE_AUTO = 'auto'  # preference will be set by an algorithm
     AFFINITY_PREFERENCE_DYNAMIC = 'dynamic'  # preference will be computed using similarity matrix
 
     def __init__(self, input_file_path, output_file_path,
                  compute_silhouette, preference_factor):
+        """Initialize InputParams class"""
         if not input_file_path:
             raise ValueError("Input file path should not be empty")
 

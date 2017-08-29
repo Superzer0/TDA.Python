@@ -1,9 +1,12 @@
+"""ContextManager that logs time that elapsed between start and exit of inner statement"""
+
 import logging
 from time import time
 
 
 class LoggingTime:
     def __init__(self, action_description):
+        """Initialized LoggingTime class"""
         self.__action_description = action_description
 
     def __enter__(self):

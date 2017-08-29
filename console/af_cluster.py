@@ -9,6 +9,9 @@ from services.FileService import ProcessingFilesService
 
 
 def get_input_params(argv):
+    """
+    Reads cmd provided parameters for ProcessingEntry
+    """
     input_file_path = 'console/example_dataset/example.txt'
     output_file_path = 'console/example_dataset/example_output.txt'
     compute_silhouette = True
@@ -36,12 +39,17 @@ def get_input_params(argv):
 
 
 def log_coefficient(coefficient):
+    """
+    Logs Silhouette coefficient that was computed
+    """
     if coefficient:
         logging.info("Silhouette Coefficient: %0.3f" % coefficient)
 
 
 def run():
-
+    """
+    Runs AF clustering processing using AFWordsClustering and FileService as a cmd app
+    """
     logging.info("Started processing with following params" + str(sys.argv[1:]))
     input_params = get_input_params(sys.argv[1:])
     file_service = ProcessingFilesService(input_params, AFWordsClustering.is_word_eligible())

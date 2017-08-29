@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06cd8d6f-b0fa-40bc-bc90-96f5d55b3623" name="Default" comment="run.py for easy running console app">
+    <list default="true" id="06cd8d6f-b0fa-40bc-bc90-96f5d55b3623" name="Default" comment="Sphinx documentation">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/console.doctree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/environment.pickle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/index.doctree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/objects.doctree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/run.doctree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/services.doctree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/doctrees/setup.doctree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/comment-bright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/comment-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/down-pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/up-pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/objects.inv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/.buildinfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/console/af_cluster.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/objects/AFProcessingResults.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/objects/InputParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/objects/ProcessingEntry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/run.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/services/AFWordsClustering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/services/ExecutionTime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_modules/services/FileService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_sources/console.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_sources/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_sources/objects.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_sources/run.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_sources/services.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_sources/setup.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/alabaster.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/doctools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/jquery-1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/pygments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/searchtools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/underscore-1.3.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/_static/websupport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/console.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/genindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/objects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/py-modindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/run.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/searchindex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/services.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc_af/_build/html/setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services_dir/console/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services_dir/objects/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services_dir/services/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/af-words-clustering.iml" afterPath="$PROJECT_DIR$/.idea/af-words-clustering.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/af_cluster.py" afterPath="$PROJECT_DIR$/console/af_cluster.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/example_dataset/example_output.txt" afterPath="$PROJECT_DIR$/console/example_dataset/example_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/AFProcessingResults.py" afterPath="$PROJECT_DIR$/objects/AFProcessingResults.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/InputParams.py" afterPath="$PROJECT_DIR$/objects/InputParams.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/ProcessingEntry.py" afterPath="$PROJECT_DIR$/objects/ProcessingEntry.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/AFWordsClustering.py" afterPath="$PROJECT_DIR$/services/AFWordsClustering.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/ExecutionTime.py" afterPath="$PROJECT_DIR$/services/ExecutionTime.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/FileService.py" afterPath="$PROJECT_DIR$/services/FileService.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <ignored path="TDA.Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="af_cluster.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="af_cluster.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console/af_cluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -36,14 +104,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/run.py">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="426">
+              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,9 +117,65 @@
       <file leaf-file-name="InputParams.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/InputParams.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="63">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessingEntry.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/objects/ProcessingEntry.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AFWordsClustering.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/AFWordsClustering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="e#134#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutionTime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/ExecutionTime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#92#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileService.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/FileService.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="e#42#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,9 +183,22 @@
       <file leaf-file-name="AFProcessingResults.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/AFProcessingResults.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="42">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="399">
+                <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -98,6 +233,10 @@
       <find>log_clustering_stats</find>
       <find>print</find>
       <find>logg</find>
+      <find>ProcessingEntry</find>
+      <find>is_word</find>
+      <find>_doc</find>
+      <find>AFWordsClustering</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,19 +254,23 @@
         <option value="$PROJECT_DIR$/objects/execution_time_context.py" />
         <option value="$PROJECT_DIR$/AFClustering.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/services/FileService.py" />
         <option value="$PROJECT_DIR$/objects/processing_entry.py" />
         <option value="$PROJECT_DIR$/objects/inputparams.py" />
         <option value="$PROJECT_DIR$/example_dataset/example.txt" />
         <option value="$PROJECT_DIR$/services/AFClustering.py" />
         <option value="$PROJECT_DIR$/af_cluster.py" />
-        <option value="$PROJECT_DIR$/services/AFWordsClustering.py" />
         <option value="$PROJECT_DIR$/words-clustering/af_cluster.py" />
-        <option value="$PROJECT_DIR$/objects/AFProcessingResults.py" />
         <option value="$PROJECT_DIR$/run.ipynb" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/console/af_cluster.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/console/__init__.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/objects/AFProcessingResults.py" />
+        <option value="$PROJECT_DIR$/objects/InputParams.py" />
+        <option value="$PROJECT_DIR$/objects/ProcessingEntry.py" />
+        <option value="$PROJECT_DIR$/services/ExecutionTime.py" />
+        <option value="$PROJECT_DIR$/services/FileService.py" />
+        <option value="$PROJECT_DIR$/console/af_cluster.py" />
+        <option value="$PROJECT_DIR$/services/AFWordsClustering.py" />
       </list>
     </option>
   </component>
@@ -174,8 +317,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +331,21 @@
               <item name="af-words-clustering" type="462c0819:PsiDirectoryNode" />
               <item name="console" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="af-words-clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-words-clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="doc_af" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="af-words-clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-words-clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="af-words-clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-words-clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,6 +355,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SearchEverywhereHistoryKey" value="is_word_eligible&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,116 +369,6 @@
       <recent name="C:\DEV\af-words-clustering\words-clustering" />
       <recent name="C:\DEV\TDA.Python\services" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -561,6 +610,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="06cd8d6f-b0fa-40bc-bc90-96f5d55b3623" name="Default" comment="" />
@@ -607,26 +659,35 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-9" width="1864" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50192624" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32799146" sideWeight="0.49807376" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32799146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17673378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18232661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -654,7 +715,8 @@
     <MESSAGE value="Counting only unique search terms" />
     <MESSAGE value="Including missing files" />
     <MESSAGE value="run.py for easy running console app" />
-    <option name="LAST_COMMIT_MESSAGE" value="run.py for easy running console app" />
+    <MESSAGE value="Sphinx documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sphinx documentation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -666,63 +728,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/objects/ProcessingEntry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/ExecutionTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/console/af_cluster.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/ProcessingEntry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/InputParams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/ExecutionTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/af_cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,9 +756,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
           <caret line="77" column="64" lean-forward="false" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,9 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
           <caret line="77" column="64" lean-forward="false" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,9 +806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
           <caret line="77" column="64" lean-forward="false" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,9 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -877,49 +879,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/console/example_dataset/example.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="889">
           <caret line="999" column="8" lean-forward="false" selection-start-line="999" selection-start-column="8" selection-end-line="999" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/example_dataset/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,32 +898,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/AFWordsClustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/FileService.py">
+    <entry file="file://$PROJECT_DIR$/words-clustering/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/run.ipynb" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="1675" column="4" lean-forward="false" selection-start-line="1675" selection-start-column="4" selection-end-line="1675" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/ProcessingEntry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -972,15 +927,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/ExecutionTime.py">
+    <entry file="file://$PROJECT_DIR$/build/lib/services/AFWordsClustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="742">
+          <caret line="91" column="24" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/words-clustering/__init__.py">
+    <entry file="file://$PROJECT_DIR$/build/lib/console/af_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="47" column="74" lean-forward="false" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1494771379/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="124" column="75" lean-forward="false" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console.af_cluster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/example_dataset/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -988,61 +975,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/console/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc_af/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/objects/AFProcessingResults.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/objects/InputParams.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="63">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/objects/ProcessingEntry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/ExecutionTime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#92#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/FileService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#42#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/AFWordsClustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#134#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/af_cluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="1675" column="4" lean-forward="false" selection-start-line="1675" selection-start-column="4" selection-end-line="1675" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

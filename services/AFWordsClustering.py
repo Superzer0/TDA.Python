@@ -1,3 +1,8 @@
+"""
+Provides interface for running AF clustering, making sure that words processed are unique, trimmed and in its
+stem versions.
+"""
+
 import logging
 
 import distance
@@ -13,10 +18,16 @@ from services.ExecutionTime import LoggingTime
 
 class AFWordsClustering:
     def __init__(self, data_dic, affinity_preference):
+        """
+        Initialize AFWordsClustering class
+        """
         self.__affinity_preference = affinity_preference
         self.__data_dic = data_dic
 
     def process(self, count_coefficient=False):
+        """
+        Based on data provided in constructor perform AF clustering
+        """
         reversed_stem_dic = {}
         with LoggingTime("Words stem dictionary prep took: "):
             for key, data in self.__data_dic.items():
@@ -35,7 +46,7 @@ class AFWordsClustering:
             lev_similarity = -1 * np.array([[distance.sorensen(w1, w2) for w1 in words] for w2 in words])
 
         # to limit number of cluster we use min value from similarity matrix
-        dynamic_preference = self.get_preference(lev_similarity, self.__affinity_preference)
+        dynamic_preference = self.__get_preference(lev_similarity, self.__affinity_preference)
         damping_factor = .9
 
         affinity_propagation_algorithm = sklearn.cluster.AffinityPropagation(affinity="precomputed",
@@ -73,7 +84,7 @@ class AFWordsClustering:
         return AFProcessingResults(self.__data_dic, af_results, lev_similarity, silhouette_coefficient)
 
     @staticmethod
-    def get_preference(lev_similarity, affinity_preference):
+    def __get_preference(lev_similarity, affinity_preference):
         if affinity_preference == InputParams.AFFINITY_PREFERENCE_AUTO:
             return None
         elif affinity_preference == InputParams.AFFINITY_PREFERENCE_DYNAMIC:
@@ -90,6 +101,11 @@ class AFWordsClustering:
 
     @staticmethod
     def is_word_eligible():
+        """ Returns function making validation if word is eligible to be processed
+            by default this function will check if stem version of the input word
+            is not empty or null
+        """
+
         def word_eligibility(word):
             return len(stem(word.strip())) > 0
 
