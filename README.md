@@ -8,7 +8,7 @@ In console/ package you can find af_cluster.py script that can be executed as co
 
 ## Reguirements
 
-pip install --user numpy scipy distance stemming sklearn 
+pip install --user numpy scipy distance stemming sklearn   
 Anaconda or WinPython installation is advised 
 
 ## Usage
