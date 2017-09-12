@@ -6,6 +6,11 @@ Duplicates are removed and word before processing are simplified to its stem ver
 
 In console/ package you can find af_cluster.py script that can be executed as command  line program. 
 
+## Reguirements
+
+pip install --user numpy scipy distance stemming sklearn 
+Anaconda or WinPython installation is advised 
+
 ## Usage
 
 ### Input
