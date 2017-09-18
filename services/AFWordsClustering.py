@@ -43,7 +43,7 @@ class AFWordsClustering:
         with LoggingTime("Distance matrix  prep took: "):
             words = np.asarray(
                 [data.stem for keys, data in self.__data_dic.items()])  # So that indexing with a list will work
-            lev_similarity = -1 * np.array([[distance.sorensen(w1, w2) for w1 in words] for w2 in words])
+            lev_similarity = -1 * np.array([[distance.levenshtein(w1, w2) for w1 in words] for w2 in words])
 
         # to limit number of cluster we use min value from similarity matrix
         dynamic_preference = self.__get_preference(lev_similarity, self.__affinity_preference)
